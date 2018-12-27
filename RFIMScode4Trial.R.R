@@ -13,8 +13,8 @@ library("writexl")
 
 
 # User inputs
-input_file_name <- "~\\Personal\\Trial_Test\\input\\rfims.xlsx"
-output_file_name <- "~\\Personal\\Trial_Test\\output\\output1_rfims.xlsx"
+input_file_name <- "~\\Personal\\assignment\\input\\rfims.xlsx"
+output_file_name <- "~\\Personal\\assignment\\output\\output2_rfims.xlsx"
 
 # Input tabs as Tibbles
 input_file_name %>% 
@@ -252,7 +252,7 @@ gen_mtbm_parameters_for_req <- function(Data.Tib) Data.Tib %>%
 
 
 #------------------#
-#   Main Argument  #
+#   Main Code      #
 #------------------#
 
 # Create a System Mapping Tib
